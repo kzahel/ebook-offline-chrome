@@ -1,0 +1,6 @@
+[submodule "web-server-chrome"]
+	path = web-server-chrome
+	url = git@github.com:kzahel/web-server-chrome
+[submodule "epub.js"]
+	path = epub.js
+	url = git@github.com:kzahel/epub.js.git
