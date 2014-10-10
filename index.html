@@ -1,9 +1,16 @@
 <Html>
 <head>
+<script src="google-analytics-bundle.js"></script>
 </head>
-<body style="margin:0;padding;0; margin-top:1em">
+<body style="margin:0;padding;0;">
 
 <!--div style="border:1px dashed red"-->
+
+<div id="noentry" style="display:none"><span style="color:red">Hint: launching from the ChromeOS Files app is more convenient.</span>
+<input id="choose-file" type="button" value="Open Epub File" />
+</div>
+
+<!--div style="border-top:1px solid black"-->
 <div>
 <webview id="webview" style="width:100%; height:100%" src="http://127.0.0.1:19685/basic.html"></webview>
 </div>
